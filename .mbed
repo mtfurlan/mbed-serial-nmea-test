@@ -1,0 +1,3 @@
+ROOT=.
+TARGET=nrf52840_dk
+TOOLCHAIN=gcc_arm

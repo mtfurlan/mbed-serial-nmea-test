@@ -1,0 +1,4 @@
+udisksctl mount -b /dev/sdc; mbed compile --flash
+
+
+The udiskctl required because mbed can't figure out how to flash a thing without it being mounted
