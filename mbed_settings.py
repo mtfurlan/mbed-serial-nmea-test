@@ -28,7 +28,8 @@ from os.path import join, abspath, dirname
 #ARM_PATH = "C:/Program Files/ARM"
 
 # GCC ARM
-GCC_ARM_PATH = "/opt/gcc-arm-none-eabi-7-2017-q4-major/bin/"
+#GCC_ARM_PATH = "/opt/gcc-arm-none-eabi-7-2017-q4-major/bin/"
+GCC_ARM_PATH = "/opt/gcc-arm-none-eabi-6-2017-q2-update//bin/"
 
 # GCC CodeRed
 #GCC_CR_PATH = "C:/code_red/RedSuite_4.2.0_349/redsuite/Tools/bin"

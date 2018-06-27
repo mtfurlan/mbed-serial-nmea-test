@@ -1,4 +1,6 @@
 udisksctl mount -b /dev/sdc; mbed compile --flash
 
+Run `pyocd-gdbserver`
+Run `$GCC_PATH_THING/arm-none-eabi-gdb BUILD/whatever/whatever/whatever_applicaiton.elf`
 
-The udiskctl required because mbed can't figure out how to flash a thing without it being mounted
+Compile with debug profile, don't flash. Run `reload` in gdb, will program it.
